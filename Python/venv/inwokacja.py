@@ -7,7 +7,6 @@ print (c)
 
 #print('BLE BLE BLE {0}, {1}, {2}' .format('raz', 'dwa', 'trzy'))
 
-# test comment
 
 invo = """\nLitwo! Ojczyzno moja! Ty jesteś jak zdrowie,
 Ile cię trzeba cenić, ten tylko się dowie,

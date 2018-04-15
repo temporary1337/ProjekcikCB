@@ -3,4 +3,4 @@
 x = DODAWANIE(1, 2)
 print (x)"""
 
-import randomi
+import giereczka
