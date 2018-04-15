@@ -1,4 +1,6 @@
-from funkcjee import DODAWANIE
+"""from funkcjee import DODAWANIE
 
 x = DODAWANIE(1, 2)
-print (x)
+print (x)"""
+
+import randomi
