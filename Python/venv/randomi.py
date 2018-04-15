@@ -7,3 +7,6 @@ lista = ['Bartek', 'Tomasz', 'Jacek', 'Jan', 'Milosz', 'Leonardo', 'Bruce', 'Jac
 x = (random.randrange(20))
 
 print (x)
+
+# asds
+# asd
