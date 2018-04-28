@@ -3,4 +3,4 @@
 x = DODAWANIE(1, 2)
 print (x)"""
 
-import giereczka
+import Slownik_karty_arena
