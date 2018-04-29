@@ -3,5 +3,6 @@
 x = DODAWANIE(1, 2)
 print (x)"""
 
-import excelotto
+#import excelotto
 #import Slownik_karty_arena
+import zwierze
