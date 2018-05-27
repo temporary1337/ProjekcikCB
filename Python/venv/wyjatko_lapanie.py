@@ -17,3 +17,30 @@ except ZeroDivisionError:
     print('TYLKO NIE PIATKA!!!\n')
 else:
     print(b,'\n')
+
+#try:
+#   b = int(input('Podaj dowolna cyfre, oprocz ZAKAZANEJ(znowu)'))
+
+''' 1.Plik do odczytu
+    -otworzyc do zapisu
+    
+    2.Tablica 10 elementow
+    -odwolac sie do 12 indeksu
+    
+    3.Zaimportowac nieistniejacy modul'''
+
+#1.
+try:
+    file = open("C:\\Users\\Uczeń\\Desktop\\lorem_ipsum.txt", 'r+')
+    file.write("Zakazany tekst")
+except PermissionError:
+    print("Nie przeczytasz zakazanego...")
+#2.
+zakazana_tablica = [0] * 10
+print(zakazana_tablica[11])
+
+#3.
+import zakazany_modul
+
+#4.
+print(zakazana_zmienna)
