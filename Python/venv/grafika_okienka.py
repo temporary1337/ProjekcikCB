@@ -68,13 +68,15 @@ Lb1.grid(row = 7, column = 2)
 
 #Canvas
 C = tkinter.Canvas(MainWindow, width = 300, height = 250)
+mlyn = tkinter.PhotoImage(file='mlyn.ppm')
+C.create_image(150, 125, anchor = 'center', image = mlyn)
 
-coord = 10,50,240,210
-mlyn = PhotoImage(file = "mlyn.bmp")#C.create_arc(coord, start = 10, fill = "green")
-image = canvas.create_image(250, 300, anchor=NE, image = mlyn)
 
 C.grid(row = 7, column = 3)
-
-#Grid
+#Grid (zamienic wszystkie .pack na .grid i dac im row + column
+#Place
+#Menu
+#Scrollbar
+#cala reszta biblioteki tinker
 #glowna petla do startowania okna
 MainWindow.mainloop()
