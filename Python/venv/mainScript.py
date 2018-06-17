@@ -1,1 +1,1 @@
-import przeladowanie
+import grafika_okienka
