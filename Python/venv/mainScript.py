@@ -1,1 +1,1 @@
-import zadanie_maj
+import przeladowanie
